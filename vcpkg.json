@@ -1,0 +1,15 @@
+{
+  "name": "gbemu",
+  "version": "0.1.0",
+  "dependencies": [
+    {
+      "name": "imgui",
+      "features": [
+        "opengl3-binding",
+        "sdl3-binding",
+        "sdl3-renderer-binding"
+      ]
+    }
+  ],
+  "builtin-baseline": "654410ee8e11f0610c11a4a49a8827a84be5e187"
+}
