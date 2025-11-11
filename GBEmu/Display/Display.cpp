@@ -125,6 +125,8 @@ void Display::tick()
         if (!line_153_to_0 == true)
         {
             scanline++;
+            if (scanline == 154)
+                scanline = 0;
         }
         else
         {
